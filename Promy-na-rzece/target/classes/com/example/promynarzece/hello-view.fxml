@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.2829313543599258" prefHeight="737.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.promynarzece.Controller">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="400.0">
+         <children>
+            <Label alignment="CENTER" layoutX="87.0" layoutY="46.0" prefHeight="48.0" prefWidth="123.0" text="Parameters" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="179.0" prefHeight="25.0" prefWidth="132.0" text="Harbour capacity">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="shipsNr" layoutX="189.0" layoutY="104.0" prefHeight="25.0" prefWidth="52.0" text="3" />
+            <Label layoutX="57.0" layoutY="214.0" prefHeight="25.0" prefWidth="132.0" text="Ship capacity">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="104.0" prefHeight="25.0" prefWidth="132.0" text="Number of ships">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="141.0" prefHeight="25.0" prefWidth="132.0" text="Number of cars">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="carsNr" layoutX="189.0" layoutY="141.0" prefHeight="25.0" prefWidth="52.0" text="20" />
+            <TextField fx:id="harbourCap" layoutX="189.0" layoutY="179.0" prefHeight="25.0" prefWidth="52.0" text="10" />
+            <TextField fx:id="shipCap" layoutX="189.0" layoutY="214.0" prefHeight="25.0" prefWidth="52.0" text="5" />
+            <Separator layoutX="1.0" layoutY="321.0" prefHeight="12.0" prefWidth="347.0" />
+            <Label alignment="CENTER" layoutX="87.0" layoutY="333.0" prefHeight="48.0" prefWidth="123.0" text="Animation" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Slider fx:id="carsSpeed" blockIncrement="1.0" layoutX="65.0" layoutY="454.0" majorTickUnit="50.0" min="-100.0" minorTickCount="1" onKeyReleased="#onCarsSliderChanged" onMouseReleased="#onCarsSliderChanged" orientation="VERTICAL" showTickLabels="true" showTickMarks="true" />
+            <Slider fx:id="shipsSpeed" blockIncrement="1.0" layoutX="178.0" layoutY="454.0" majorTickUnit="50.0" min="-100.0" minorTickCount="1" onKeyReleased="#onShipsSliderChanged" onMouseReleased="#onShipsSliderChanged" orientation="VERTICAL" showTickLabels="true" showTickMarks="true" />
+            <Label alignment="CENTER" layoutX="151.0" layoutY="413.0" prefHeight="34.0" prefWidth="76.0" text="Cars In/Out Ships" textAlignment="CENTER" wrapText="true" />
+            <Label alignment="CENTER" layoutX="53.0" layoutY="406.0" prefHeight="48.0" prefWidth="68.0" text="Cars In/Out Harbour" textAlignment="CENTER" wrapText="true" />
+            <Label alignment="CENTER" layoutX="120.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0" text="Speed" />
+            <Button fx:id="startBtn" layoutX="97.0" layoutY="606.0" mnemonicParsing="false" onAction="#onStartButtonAction" prefHeight="25.0" prefWidth="100.0" text="Start" />
+            <Button fx:id="saveBtn" layoutX="99.0" layoutY="271.0" mnemonicParsing="false" onAction="#onSaveButtonAction" prefHeight="25.0" prefWidth="100.0" text="Commit" />
+            <Button fx:id="stopBtn" layoutX="97.0" layoutY="687.0" mnemonicParsing="false" onAction="#onStopButtonAction" prefHeight="25.0" prefWidth="100.0" text="Stop" />
+            <Button fx:id="pauseResumeBtn" layoutX="99.0" layoutY="645.0" mnemonicParsing="false" onAction="#onPauseResumeBtnAction" prefHeight="25.0" prefWidth="100.0" text="Pause/Resume" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="756.0" />
+  </items>
+</SplitPane>
