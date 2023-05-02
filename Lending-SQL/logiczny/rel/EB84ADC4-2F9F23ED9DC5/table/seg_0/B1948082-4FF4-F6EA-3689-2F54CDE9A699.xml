@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1948082-4FF4-F6EA-3689-2F54CDE9A699" name="PR_KSIAZKA">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>FEF19216-1214-2712-F211-2D0F1A1E6815</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<ordsAlias>ksiazka</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa_ksiazki" id="FEB858A5-B4C1-7640-0FCF-73B69558D321">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>20B23102-0243-1FA1-E7DC-23B2A4B895D5</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena_ksiazki" id="6162DD46-BC8E-C543-247E-FE3FF85C1AFD">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>58BAFCEF-23A1-1540-DCDA-EA607B6DC701</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_gatunku" id="A4D7FA85-E395-34BF-BCE5-A4D84E4D7476">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>B93AEB24-00FC-9D17-DAA9-41DD4AB4F8EE</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33EA2E83-FAAF-93B4-6409-86A66F0E1ADD" referredColumn="CFD9EEC9-8853-9218-370A-62A79898C576"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD550232-5740-6DB2-E137-F167DB08D480" name="KSIAZKA_PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>EBE72343-E8AE-3980-32AA-CA7C80E03DF2</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEB858A5-B4C1-7640-0FCF-73B69558D321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E1A6A0-CC50-F285-0CF5-D8769B337A16" name="KSIAZKA_GATUNEK_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>0737F00E-E841-170C-AC5A-4FC8AE0FCD45</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D7FA85-E395-34BF-BCE5-A4D84E4D7476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

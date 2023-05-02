@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="80E750F8-BFC4-F46C-46F2-4DCEFDD7A2DA">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 17:38:53 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C8C3C3AF-C257-A751-B157-9152A0C4113B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEF19216-1214-2712-F211-2D0F1A1E6815</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="rola" id="A500599F-A704-B977-1B59-669534FFAFDF">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 18:56:44 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

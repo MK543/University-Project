@@ -1,0 +1,6 @@
+W przypadku chęci usunięcia danych i tabel wcześniej zainstalowanych, uruchomić z poziomu 
+bazy danych plik (skrypt) PR_DELETE_DB.sql lub otworzyć go manualnie i nacisnąć CTRL+A, 
+a zawartość wprowadzić do Worksheet'a za pomocą CTRL+V i nacisnąć Run Statement 
+lub CTRL+ENTER.
+W przypadku błędów upewnić się, że skrypt nie został zmodyfikowany oraz że wcześniej
+wykonano instalacje tabel na serwerze bazodanowym.

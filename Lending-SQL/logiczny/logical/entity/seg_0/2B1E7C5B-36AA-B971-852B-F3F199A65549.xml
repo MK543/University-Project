@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B1E7C5B-36AA-B971-852B-F3F199A65549" name="EGZEMPLARZ">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 12:42:00 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_egzemplarza" id="FFC3A14E-C9D3-8D20-2B6D-B73D89F78A16">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 16:27:12 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="B3C815D3-FB64-BAD7-4140-24DDEBB445E6">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 16:50:30 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_ksiazki" id="6A09A3B0-5495-5379-A8A7-198CFC40366E">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 10:21:54 UTC</createdTime>
+<generatorID>2AF8BF88-51DD-A0BD-DF91-45128152DD59</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<referedAttribute>20B23102-0243-1FA1-E7DC-23B2A4B895D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nosnika" id="1BE0A270-4A71-1EDD-25CA-370FDA8BE2F0">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 10:23:47 UTC</createdTime>
+<generatorID>04C7A90D-ACC9-6191-B281-E4D568E4E9A3</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<referedAttribute>40DBA11F-88E7-4FB7-1603-155E1DFF973C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D415A944-2B82-A8B4-2E91-F289BD5CD301" name="EGZEMPLARZ PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 16:27:27 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFC3A14E-C9D3-8D20-2B6D-B73D89F78A16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

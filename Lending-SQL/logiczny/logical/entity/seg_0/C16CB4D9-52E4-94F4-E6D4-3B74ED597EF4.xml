@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C16CB4D9-52E4-94F4-E6D4-3B74ED597EF4" name="GATUNEK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 12:42:29 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gatunku" id="71C510FA-B60C-75A8-05B7-1A0D6032FE52">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 12:47:02 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_gatunku" id="CD30DA99-AC1F-1EF4-CFC4-EA787F9FA0EB">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 12:49:43 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A83AF5A-1D06-B316-08EA-F39091DAE419" name="GATUNEK PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-08 12:47:19 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71C510FA-B60C-75A8-05B7-1A0D6032FE52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

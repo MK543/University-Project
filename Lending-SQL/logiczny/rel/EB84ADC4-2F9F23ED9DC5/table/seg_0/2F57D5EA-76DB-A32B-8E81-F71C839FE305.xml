@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F57D5EA-76DB-A32B-8E81-F71C839FE305" name="PR_OSOBA">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>26F87C84-C8BF-93A6-B3AD-5C247E06E928</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<ordsAlias>osoba</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_osoby" id="DB3C7A94-7408-E97A-70B4-C1B69B375651">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>28C53209-8A6D-81C3-DBCA-2572B3D54229</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="05037271-D3CC-CCA4-EBAF-49E9ACA504C0">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>9C3624A8-2325-95D5-ACE9-786D158837A7</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="DD435409-33FB-FE8F-CBD2-698DB0959FDB">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>76CCFF56-9043-3705-3132-049CA84BDD04</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod_pocztowy" id="0B5430AE-27A4-83E9-E178-51F2D1712615">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>C876A2C8-CAEC-A2DC-13B7-F8BB26434C5D</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejscowosc" id="A0738B5B-919C-7B74-66A6-4694D0E92551">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>529E96F7-8E06-77AA-45E0-AE59AE72E83E</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="A368DABB-8188-6376-6602-4AE128929734">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>048B246A-B798-00F9-774B-9FDD7F64F2C8</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09E08BAD-3AEB-072D-BDE1-1DF215289D5C" name="OSOBA_PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>05D20A65-82BD-CC3B-2CA3-EE4B91C0E16F</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB3C7A94-7408-E97A-70B4-C1B69B375651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFDE9A8C-51B7-EEB0-0BB8-2993EE3A5764" name="PR_EGZEMPLARZ">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>2B1E7C5B-36AA-B971-852B-F3F199A65549</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<ordsAlias>egzemplarz</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_egzemplarza" id="F330F989-72A4-5FCD-C506-8BC9BA26A9C4">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>FFC3A14E-C9D3-8D20-2B6D-B73D89F78A16</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A4A5AEF3-2BD7-53BF-D2F5-4970BC60744A">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>B3C815D3-FB64-BAD7-4140-24DDEBB445E6</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_ksiazki" id="DDACC76E-FF1D-A94B-91DA-71EA65470019">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>6A09A3B0-5495-5379-A8A7-198CFC40366E</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="099B7A2B-11DA-E615-E0BA-BC64FC067958" referredColumn="FEB858A5-B4C1-7640-0FCF-73B69558D321"/>
+</associations>
+</Column>
+<Column name="id_nosnika" id="93A67636-920B-E842-9FEF-27C283E5015B">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>1BE0A270-4A71-1EDD-25CA-370FDA8BE2F0</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3006B092-0489-8807-91B5-114995656BAC" referredColumn="5336AF5F-6B5A-E3E5-BC15-2B1BB3685151"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF9217A-3411-670F-9529-730D08A3CE24" name="EGZEMPLARZ_PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>D415A944-2B82-A8B4-2E91-F289BD5CD301</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F330F989-72A4-5FCD-C506-8BC9BA26A9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9309A9D4-3AC8-9958-5BB8-05B8F2B15E2D" name="EGZEMPLARZ_KSIAZKA_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>2AF8BF88-51DD-A0BD-DF91-45128152DD59</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDACC76E-FF1D-A94B-91DA-71EA65470019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20966BA6-B79D-1086-73C4-AFF2963BEBA6" name="EGZEMPLARZ_NOSNIK_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>04C7A90D-ACC9-6191-B281-E4D568E4E9A3</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93A67636-920B-E842-9FEF-27C283E5015B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

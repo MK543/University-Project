@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EGZEMPLARZ_WYPOZYCZENIE" directorySegmentName="seg_0" id="E7E829CF-C4AC-F835-BD71-FD994C42A179">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 10:21:19 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<sourcePk>D415A944-2B82-A8B4-2E91-F289BD5CD301</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B1E7C5B-36AA-B971-852B-F3F199A65549</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>368655A1-29BA-1166-91B3-D9FABA4D2615</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="099B7A2B-11DA-E615-E0BA-BC64FC067958" containerWithKeyObject="EFDE9A8C-51B7-EEB0-0BB8-2993EE3A5764" localFKIndex="9309A9D4-3AC8-9958-5BB8-05B8F2B15E2D" name="EGZEMPLARZ_KSIAZKA_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>2AF8BF88-51DD-A0BD-DF91-45128152DD59</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<referredTableLongName>KSIAZKA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1948082-4FF4-F6EA-3689-2F54CDE9A699</referredTableID>
+<keyObject>BD550232-5740-6DB2-E137-F167DB08D480</keyObject>
+<referredKeyID>BD550232-5740-6DB2-E137-F167DB08D480</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazwa_ksiazki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

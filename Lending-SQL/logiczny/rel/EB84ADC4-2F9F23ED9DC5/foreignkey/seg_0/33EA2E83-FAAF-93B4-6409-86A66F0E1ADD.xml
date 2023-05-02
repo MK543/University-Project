@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33EA2E83-FAAF-93B4-6409-86A66F0E1ADD" containerWithKeyObject="B1948082-4FF4-F6EA-3689-2F54CDE9A699" localFKIndex="C4E1A6A0-CC50-F285-0CF5-D8769B337A16" name="KSIAZKA_GATUNEK_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>0737F00E-E841-170C-AC5A-4FC8AE0FCD45</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<referredTableLongName>GATUNEK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6322A6F-4EAC-00D3-F4C9-41431C3EC324</referredTableID>
+<keyObject>45CA0483-22EC-E22C-2EDD-D16F5089C142</keyObject>
+<referredKeyID>45CA0483-22EC-E22C-2EDD-D16F5089C142</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gatunku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

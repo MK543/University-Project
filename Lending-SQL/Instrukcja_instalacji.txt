@@ -1,0 +1,13 @@
+1.Otworzyć narzędzie Oracle SQL Developer.
+2.Połączyć się z dowolnym serwerem Baz Danych (w którym mamy uprawnienia tworzenia,
+kasowania, modyfikacji tabel oraz wprowadzania do nich danym)
+3.Uruchomić z poziomu bazy danych plik (skrypt) PR_CREATE_DB.sql lub otworzyć go manualnie
+i nacisnąć CTRL+A, a zawartość wprowadzić do Worksheet'a za pomocą CTRL+V i nacisnąć 
+Run Statement lub CTRL+ENTER.
+4.W przypadku błędów, sprawdzić czy plik nie został przypadkiem zmodyfikowany, gdyż skrypt
+wdrożeniowy został przetestowany wcześniej.
+5.Identycznie jak w pkt 3. postąpić z plikiem (skryptem) PR_INSERT_ALL_DB.sql .
+6.W przypadku błędów, sprawdzić czy plik nie został przypadkiem zmodyfikowany, gdyż skrypt
+wdrożeniowy został przetestowany wcześniej.
+7.Zgodność danych potwierdzić z wywołanym na końcu zapytaniem w skrypcie (który pokazuje
+ilość danych we wszystkich tabelach) a obrazem Ilosc_danych.PNG

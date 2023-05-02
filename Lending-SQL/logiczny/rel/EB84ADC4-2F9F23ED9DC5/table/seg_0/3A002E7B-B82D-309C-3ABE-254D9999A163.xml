@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A002E7B-B82D-309C-3ABE-254D9999A163" name="PR_ROLE">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<ordsAlias>relation_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autora" id="25715266-5FE4-C38B-B89D-E774CCD1485B">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F67BF47-AB3E-AF2D-17E8-DB1C4EA81877" referredColumn="17CAAADF-0F74-9EDA-4572-533DE0CAF390"/>
+</associations>
+</Column>
+<Column name="nazwa_ksiazki" id="DFFEF494-1335-5F34-89A7-810087C7575B">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC8EF007-1C00-7329-72E4-506795CC9D61" referredColumn="FEB858A5-B4C1-7640-0FCF-73B69558D321"/>
+</associations>
+</Column>
+<Column name="rola" id="A670EEAF-E84C-D2E3-D03E-BAD2F63B6C6E">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>A500599F-A704-B977-1B59-669534FFAFDF</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D015C78F-BCC9-49AA-593A-57F4B9F6316D" name="Relation_12_PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25715266-5FE4-C38B-B89D-E774CCD1485B"/>
+<colUsage columnID="DFFEF494-1335-5F34-89A7-810087C7575B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731EBF68-DC3C-7E2E-1027-C145F0EB3CFB" name="ROLE_AUTOR_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>80E750F8-BFC4-F46C-46F2-4DCEFDD7A2DA</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25715266-5FE4-C38B-B89D-E774CCD1485B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2402DDAA-62B1-BF1F-3A31-E312925317A8" name="ROLE_KSIAZKA_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>80E750F8-BFC4-F46C-46F2-4DCEFDD7A2DA</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFFEF494-1335-5F34-89A7-810087C7575B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

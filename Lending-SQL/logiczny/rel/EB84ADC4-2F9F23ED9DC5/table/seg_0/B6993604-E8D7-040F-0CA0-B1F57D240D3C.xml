@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6993604-E8D7-040F-0CA0-B1F57D240D3C" name="PR_WYPOZYCZENIE">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>368655A1-29BA-1166-91B3-D9FABA4D2615</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<ordsAlias>wypozyczenie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wypozyczenia" id="835E5E0D-D218-2344-C396-337A0736536E">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>37AFA5A6-C95B-4D2A-9E71-97DF6A7F05D8</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt_wypozyczenia" id="AB1A8969-35E7-C811-87FC-9BBF982E9004">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>3B530003-97D6-72F5-F51D-A110833204E0</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_wypozyczenia" id="209815C9-0770-7BF8-5339-5834B8DE5508">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>F2CFC371-449C-BF6F-CAE3-AC353FE2D9DF</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_oddania" id="C025FC90-F221-0E2A-7602-77330369F9D9">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>F5C10F21-9132-3A23-DBAD-ADD492D3283F</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kara" id="93493784-74DF-A977-6438-77C609466A5F">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>F1056398-7365-0702-3741-957522A86870</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_osoby" id="4C09B5CB-B5D9-78F0-B9E8-E5A3372714C3">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>232EB9C3-0D5E-6EC9-2EFA-8667EB312B2D</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E21C5B7A-2CF5-8639-DACE-E9D9D192626A" referredColumn="DB3C7A94-7408-E97A-70B4-C1B69B375651"/>
+</associations>
+</Column>
+<Column name="id_egzemplarza" id="3CA84CFA-A239-CC77-DBC2-DB329A75560C">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>D16079FC-848B-DFD9-7311-A52CF30A20D6</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7115F0AB-7397-3394-E99D-DB91CE1DB1AC" referredColumn="F330F989-72A4-5FCD-C506-8BC9BA26A9C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60F057AF-99CE-5DD4-2393-E3FA88AB785C" name="WYPOZYCZENIE_PK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>F85DFC8B-5A65-C744-B1F0-B79D85B9DF33</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835E5E0D-D218-2344-C396-337A0736536E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42EE1BB0-A3C1-379A-875D-44A1886E36FE" name="WYPOZYCZENIE_EGZEMPLARZ_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>E7E829CF-C4AC-F835-BD71-FD994C42A179</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA84CFA-A239-CC77-DBC2-DB329A75560C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C85D7D9-9609-0AA5-E750-5872C156F8F4" name="WYPOZYCZENIE_OSOBA_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>2D91CE7F-4E11-A294-24DC-7DA8DD56C675</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C09B5CB-B5D9-78F0-B9E8-E5A3372714C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

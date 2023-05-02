@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7115F0AB-7397-3394-E99D-DB91CE1DB1AC" containerWithKeyObject="B6993604-E8D7-040F-0CA0-B1F57D240D3C" localFKIndex="42EE1BB0-A3C1-379A-875D-44A1886E36FE" name="WYPOZYCZENIE_EGZEMPLARZ_FK">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-12 18:52:06 UTC</createdTime>
+<generatorID>E7E829CF-C4AC-F835-BD71-FD994C42A179</generatorID>
+<ownerDesignName>logiczny</ownerDesignName>
+<referredTableLongName>EGZEMPLARZ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFDE9A8C-51B7-EEB0-0BB8-2993EE3A5764</referredTableID>
+<keyObject>8BF9217A-3411-670F-9529-730D08A3CE24</keyObject>
+<referredKeyID>8BF9217A-3411-670F-9529-730D08A3CE24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_egzemplarza</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KSIAZKA_EGZEMPLARZ" directorySegmentName="seg_0" id="2AF8BF88-51DD-A0BD-DF91-45128152DD59">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 10:21:54 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<sourcePk>EBE72343-E8AE-3980-32AA-CA7C80E03DF2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEF19216-1214-2712-F211-2D0F1A1E6815</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B1E7C5B-36AA-B971-852B-F3F199A65549</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

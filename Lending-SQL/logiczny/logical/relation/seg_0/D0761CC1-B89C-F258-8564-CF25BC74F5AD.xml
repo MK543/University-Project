@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OSOBA_PREFERENCJE" directorySegmentName="seg_0" id="D0761CC1-B89C-F258-8564-CF25BC74F5AD">
+<createdBy>R4V3N</createdBy>
+<createdTime>2023-01-09 16:56:02 UTC</createdTime>
+<ownerDesignName>logiczny</ownerDesignName>
+<engineerTo>
+<item key="EB84ADC4-64C6-B080-C3A3-2F9F23ED9DC5" value="true"/>
+</engineerTo>
+<sourcePk>05D20A65-82BD-CC3B-2CA3-EE4B91C0E16F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26F87C84-C8BF-93A6-B3AD-5C247E06E928</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8AA2E13A-70DD-9522-05E0-DAA5F88222F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
