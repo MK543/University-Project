@@ -1,5 +1,5 @@
-# University-Project
-A few project created during a course of study at university
+# University-Projects
+A few projects created during a course of study at university
 List of project:
 Ships on the river (synchronization between different threads in JavaFX), 
 Consumer, producer problem (communication between different process in Linux based systems in Ansi C), 
